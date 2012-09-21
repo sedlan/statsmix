@@ -1,0 +1,26 @@
+{
+	"name": "statsmix",
+	"description": "Node library for StatsMix",
+	"version": "0.0.1",
+	"author": "Jovan Sedlan",
+	"maintainers": [
+		{
+			"name": "Jovan Sedlan",
+			"email": "j.sedlan@gmail.com"
+		}
+	],
+	"homepage": "https://github.com/sedlan/statsmix",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/sedlan/statsmix.git"
+	},
+	"main": "./lib/statsmix.js",
+	"licenses": [
+		{
+			"type": "GPLv3",
+			"url": "http://www.gnu.org/licenses/gpl-3.0.txt"
+		}
+	],
+	"engine": ["node >=0.4.1"],
+	"keywords": ["node", "stats", "statsmix"]
+}
