@@ -6,12 +6,12 @@ qunit.options.log.summary = false;
 qunit.options.log.globalSummary = false;
 qunit.run({
 	code: {
-		path: './lib/statsmix.js',
+		path: '../lib/statsmix.js',
 		namespace: 'statsmix'
 	},
 	tests: [
 		'statsmix.test.js'
-	].map(function (v) { return './test/' + v })
+	].map(function (v) { return '../test/' + v })
 }, function(err, report) {
 	var assertions = qunit.log.assertion();
 	for (var i in assertions) {
